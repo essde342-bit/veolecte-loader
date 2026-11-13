@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="32dp"
+    android:background="#FF0A0A0F">
+
+    <ImageView
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:src="@drawable/logo"
+        android:scaleType="fitCenter"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="VEOLECTE"
+        android:textSize="32sp"
+        android:textColor="#FFAA66FF"
+        android:textStyle="bold"
+        android:letterSpacing="0.15"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="v1.18.12016 | Non-Root"
+        android:textSize="14sp"
+        android:textColor="#FF888888"
+        android:layout_marginBottom="40dp" />
+
+    <TextView
+        android:id="@+id/statusText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Готов к запуску"
+        android:textSize="14sp"
+        android:textColor="#FFCCCCCC"
+        android:gravity="center"
+        android:layout_marginBottom="24dp" />
+
+    <Button
+        android:id="@+id/btnLaunch"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="ЗАПУСТИТЬ"
+        android:textSize="18sp"
+        android:textColor="#FF000000"
+        android:backgroundTint="#FFAA66FF"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Инструкция:\n1. Клонируй Oxide и Veolecte в LuluBox\n2. Включи SandBox для обоих\n3. Нажми ЗАПУСТИТЬ\n4. Подожди 5-10 сек — меню появится в игре"
+        android:textSize="12sp"
+        android:textColor="#FF666666"
+        android:gravity="center"
+        android:lineSpacingExtra="4dp" />
+
+</LinearLayout>
